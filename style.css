@@ -1,0 +1,66 @@
+.Titulos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Titulos h1{
+    color: rgba(34, 110, 147, 1);
+    font-size: 80px;
+    font-style: italic;
+    text-align: center;
+    width: 70%;
+}
+h1 a{
+    color: rgba(34, 110, 147, 1);
+    font-size: 30px;
+    text-decoration: none;
+}
+a{
+    color: rgba(34, 110, 147, 1);
+    text-decoration: none;
+}
+
+.Titulos h2{
+    color: rgba(34, 110, 147, 1);
+    font-size: 40px;
+    text-align: center;
+    width: 70%;
+}
+
+.Texto{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.Texto p{
+    font-size: 20px;
+    text-align: justify;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff; 
+    z-index: 1000; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    padding: 10px 0;
+}
+header h1{
+    color: rgba(34, 110, 147, 1);
+    font-size: 30px;
+}
+body{
+    margin-top: 100px;
+}
+li{
+    font-size: 20px;
+    text-align: justify;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+}
